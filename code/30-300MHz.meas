@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<js>
+  <config>
+    <isstep value="True" />
+    <stepsize value="360" />
+    <axislog value="False" />
+    <file value="C:\Program Files\TS+\JS32-RE\config\Instrument\30M-130M.sys" />
+    <boresight value="True" />
+    <testmethod value="False" />
+    <teststep value="15" />
+    <single value="True" />
+    <delay value="35000" />
+    <direct value="Vertical" />
+    <filter1 value="" />
+    <filter2 value="" />
+    <port1 value="1" />
+    <port2 value="2" />
+    <spa1 value="1" />
+    <spa2 value="1" />
+    <path value="None" />
+    <antennaselect value="Dummy" />
+    <direct2 value="Horizontal" />
+    <path2 value="" />
+    <antennaselect2 value="" />
+    <antenna value="Horizontal" />
+    <speed value="8" />
+    <antennaspeed value="8" />
+    <degmin value="0" />
+    <degmax value="350" />
+    <sequenceheight value="true" />
+    <tracepath value="D:\12\myTrace.csv" />
+    <holdtime value="2000" />
+    <pktrace value="Average" />
+    <avtrace value="Average" />
+    <pktest value="True" />
+    <avtest value="False" />
+    <pklimit value="PK" />
+    <avlimit value="AV" />
+    <d3mode value="False" />
+    <CISPRAV value="True" />
+  </config>
+  <other>
+  </other>
+  <other2>
+  </other2>
+  <horizontal>
+    <list value="120" />
+  </horizontal>
+  <vertical>
+    <list value="120" />
+  </vertical>
+  <date>
+    <time value="" />
+    <endtime value="" />
+  </date>
+  <final>
+    <spectrumtime value="3000" />
+    <spectrumtest value="False" />
+    <sweep value="50" />
+    <receivercommand value="" />
+    <span value="1" />
+    <att value="0" />
+    <det value="PK" />
+    <ref value="100" />
+    <rbw value="100" />
+    <vbw value="300" />
+    <fixed value="True" />
+    <path2 value="Path1" />
+    <search value="True" />
+    <percent value="True" />
+    <pk value="False" />
+    <qp value="True" />
+    <rms value="False" />
+    <av value="False" />
+    <preamplifier value="False" />
+    <antennarange value="False" />
+    <tablerange value="True" />
+    <antennarangemax value="200" />
+    <antennarangemin value="100" />
+    <antennaoffsetmax value="100" />
+    <antennaoffsetmin value="100" />
+    <tablerangemax value="360" />
+    <tablerangemin value="0" />
+    <tableoffsetmax value="45" />
+    <tableoffsetmin value="45" />
+    <monitortime value="8" />
+    <speed value="3" />
+    <antennaspeed value="1" />
+    <detector value="PK" />
+    <trace value="Average" />
+    <tablemonitortime value="3000" />
+    <antennamonitortime value="3000" />
+    <fixedtable value="False" />
+    <fixedantenna value="False" />
+    <isfcc value="False" />
+  </final>
+  <receiver>
+    <list startfreq="0.15" stopfreq="30" ifband="9" meas="1000" />
+    <list startfreq="30" stopfreq="1000" ifband="120" meas="1000" />
+    <list startfreq="1000" stopfreq="6000" ifband="1000" meas="1000" />
+  </receiver>
+  <pk>
+    <test value="False" />
+    <other>
+      <list startfreq="30" stopfreq="300" startlevel="-40" stoplevel="-40" />
+    </other>
+    <fundamental>
+    </fundamental>
+    <harmonic>
+    </harmonic>
+  </pk>
+  <qp>
+    <test value="False" />
+    <other>
+    </other>
+    <fundamental>
+    </fundamental>
+    <harmonic>
+    </harmonic>
+  </qp>
+  <rms>
+    <test value="False" />
+    <other>
+    </other>
+    <fundamental>
+    </fundamental>
+    <harmonic>
+    </harmonic>
+  </rms>
+  <av>
+    <test value="False" />
+    <other>
+    </other>
+    <fundamental>
+    </fundamental>
+    <harmonic>
+    </harmonic>
+  </av>
+  <display value="True" />
+  <pklinear value="True" />
+  <qplinear value="True" />
+  <rmslinear value="False" />
+  <avlinear value="False" />
+  <unit value="dBμV/m" />
+  <standard value="MR MNS Scan (30 - 300MHz)" />
+  <temp value="" />
+  <meas value="" />
+  <spectrum>
+    <list startfreq="25.286" stopfreq="25.5"     rbw="0.001" vbw="0.003" ref="50" att="AUTO" sweep="1" point="10000" coupling="AC" preamplifier="False" filter="Dummy" />
+    <list startfreq="31.602" stopfreq="31.855"   rbw="0.001" vbw="0.003" ref="50" att="AUTO" sweep="1" point="10000" coupling="AC" preamplifier="False" filter="Dummy" />
+    <list startfreq="31.997" stopfreq="32.261"   rbw="0.001" vbw="0.003" ref="50" att="AUTO" sweep="1" point="10000" coupling="AC" preamplifier="False" filter="Dummy" />
+    <list startfreq="33.673" stopfreq="33.944"   rbw="0.001" vbw="0.003" ref="50" att="AUTO" sweep="1" point="10000" coupling="AC" preamplifier="False" filter="Dummy" />
+    <list startfreq="35.244" stopfreq="35.421"   rbw="0.001" vbw="0.003" ref="50" att="AUTO" sweep="1" point="10000" coupling="AC" preamplifier="False" filter="Dummy" />
+    <list startfreq="40.886" stopfreq="41.09"    rbw="0.001" vbw="0.003" ref="50" att="AUTO" sweep="1" point="10000" coupling="AC" preamplifier="False" filter="Dummy" />
+    <list startfreq="49.566" stopfreq="49.724"   rbw="0.001" vbw="0.003" ref="50" att="AUTO" sweep="1" point="10000" coupling="AC" preamplifier="False" filter="Dummy" />
+    <list startfreq="51.546" stopfreq="51.963"   rbw="0.001" vbw="0.003" ref="50" att="AUTO" sweep="1" point="10000" coupling="AC" preamplifier="False" filter="Dummy" />
+    <list startfreq="63.603" stopfreq="64.117"   rbw="0.001" vbw="0.003" ref="50" att="AUTO" sweep="1" point="10000" coupling="AC" preamplifier="False" filter="Dummy" />
+    <list startfreq="74.846" stopfreq="75.089"   rbw="0.001" vbw="0.003" ref="50" att="AUTO" sweep="1" point="10000" coupling="AC" preamplifier="False" filter="Dummy" />
+    <list startfreq="78.766" stopfreq="79.006"   rbw="0.001" vbw="0.003" ref="50" att="AUTO" sweep="1" point="10000" coupling="AC" preamplifier="False" filter="Dummy" />
+    <list startfreq="82.361" stopfreq="82.525"   rbw="0.001" vbw="0.003" ref="50" att="AUTO" sweep="1" point="10000" coupling="AC" preamplifier="False" filter="Dummy" />
+    <list startfreq="97.113" stopfreq="97.578"   rbw="0.001" vbw="0.003" ref="50" att="AUTO" sweep="1" point="10000" coupling="AC" preamplifier="False" filter="Dummy" />
+    <list startfreq="119.934" stopfreq="120.519" rbw="0.001" vbw="0.003" ref="50" att="AUTO" sweep="1" point="10000" coupling="AC" preamplifier="False" filter="Dummy" />
+    <list startfreq="120.574" stopfreq="120.947" rbw="0.001" vbw="0.003" ref="50" att="AUTO" sweep="1" point="10000" coupling="AC" preamplifier="False" filter="Dummy" />
+    <list startfreq="126.458" stopfreq="129.026" rbw="0.001" vbw="0.003" ref="50" att="AUTO" sweep="1" point="10000" coupling="AC" preamplifier="False" filter="Dummy" />
+    <list startfreq="127.224" stopfreq="128.243" rbw="0.001" vbw="0.003" ref="50" att="AUTO" sweep="1" point="10000" coupling="AC" preamplifier="False" filter="Dummy" />
+    <list startfreq="297.021" stopfreq="299.068" rbw="0.001" vbw="0.003" ref="50" att="AUTO" sweep="1" point="10000" coupling="AC" preamplifier="False" filter="Dummy" />
+  </spectrum>
+  <spectrum2>
+  </spectrum2>
+</js>
